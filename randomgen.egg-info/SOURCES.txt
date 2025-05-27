@@ -1,9 +1,0 @@
-LICENSE
-README.md
-setup.py
-randomgen/__init__.py
-randomgen/generator.py
-randomgen.egg-info/PKG-INFO
-randomgen.egg-info/SOURCES.txt
-randomgen.egg-info/dependency_links.txt
-randomgen.egg-info/top_level.txt

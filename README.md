@@ -1,11 +1,11 @@
-# randomgen
+# am-random-generator
 
 A simple Python package to generate random numbers, characters or both of a given length.
 
-## Install
+## Installation
 
 ```bash
-pip install randomgen
+pip install am-random-generator
 ```
 
 ## Usage
@@ -13,22 +13,26 @@ pip install randomgen
 ```python
 from randomgen import generate_random
 
-print(generate_random(8))  # both by default
-print(generate_random(5, 'number'))
-print(generate_random(10, 'char'))
+# Generate both numbers and characters (default)
+print(generate_random(8))  # e.g., "a2b9c4d8"
+
+# Generate numbers only
+print(generate_random(5, 'number'))  # e.g., "12345"
+
+# Generate characters only
+print(generate_random(10, 'char'))  # e.g., "abcdefghij"
 ```
 
-## Test Locally
+## Development
 
-In terminal:
+To install the package locally for development:
+
 ```bash
+git clone https://github.com/ashish4824/RandomValue.git
+cd RandomValue
 pip install -e .
 ```
 
-## Upload to PyPI (if you want later)
+## License
 
-```bash
-pip install twine
-python setup.py sdist bdist_wheel
-twine upload dist/*
-```
+MIT License
